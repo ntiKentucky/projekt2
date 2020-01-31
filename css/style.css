@@ -34,8 +34,51 @@ header{
 .bg{
     width: 100%;
     height: 100vh;
-    background: url(../img/galaxybackground.gif);
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)), 
+                url(../img/nicebackground2.gif);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.content {
+    width: 90%;
+    height: 50%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kolom {
+    margin: 10px;
+    width: 30%;
+    height: 100%;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.kolom .atas{
+    width: 100%;
+    height: 60%;
+    background: #2c3e50;
+}
+
+.kolom .tengah{
+    width: 100%;
+    height: 10%;
+    background: #fff;
+}
+
+.kolom .bawah{
+    width: 100%;
+    height: 30%;
+    background: #f0f0f0;
+}
