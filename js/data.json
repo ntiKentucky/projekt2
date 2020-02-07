@@ -1,0 +1,13 @@
+{
+    "person1" : {
+        "name" : "Kent",
+        "lastName" : "Agent",
+        "agent" : true
+    },
+    "person2" : {
+        "name" : "tutti", 
+        "lastName" : "fruttan",
+        "ond" : true
+    }
+
+}
